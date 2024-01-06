@@ -8,56 +8,50 @@
         "DisableIconText": false,
         "IconPosition": 0,
         "IconTextColor": 0,
-        "OpenOnStart": true,
+        "OpenOnStart": false,
         "OpenOnStartOnlyNewPlayers": true,
         "UpdateInterval": 12
       },
     "tabs": [
       {
         "tab1": {
-          "layout": 1,
-          "buttontext": "<RichColor Color=\"1,0,0,1\">Welcome</>",
-          "title1": "Welcome to Unity Gamers Community Ark ascended!",
-          "text1": "Our servers are PVE based, with NPC addtions.\nPlease take the time to read the RULES and browse through the other tabs.\nFor any other question/info or want to join the community then connect to our Discord via the discord link below.\n\nHave fun & stay safe!",
-          "imageurl": "https://i.imgur.com/mGt3cAF.png"
+        "layout": 1,
+        "buttontext": "<TextStyle.LightBlue>Welcome</>",
+        "title1": "<TextStyle.Green>Welcome to Unity Gamers Community Ark ascended!</>",
+        "text1": "Our servers are PVE based, with NPC additions.\nPlease take the time to read the RULES and browse through the other tabs.\nFor any other question/info or want to join the community then connect to our Discord via the discord link below.\n\nHave fun & stay safe!",
+        "imageurl": "https://i.imgur.com/mGt3cAF.png"
         }
       },
       {
         "tab2": {
-          "layout": 2,
-          "buttontext": "Info",
-          "title1": "General",
-          "title2": "Server Settings",
-          "text1": "Our server is PvEvNPC.\nThis means the base server setting is PVE so there is no 'player vs player' allowed.\nWe do however have an NPC mod which offers an 'environment' based pvp style of play.\nNPC's are naturally aggressive or hostile, so approach them cautiously.\n They are tameable by knockout only. The different NPC's perform different functions once tamed.\nMore info on NPCs here: https://steamcommunity.com/workshop/filedetails/discussion/1443404076/1739968490572887256/\n\nWe are using the ArkShop with a UI mod. Hit <TextStyle.Blue>F2</> to access the shop.",
-          "text2": "Our server settings are:\n\n<TextStyle.Blue>Player</>\nMax player level - 209 (Before ascension)\n\n<TextStyle.Blue>Server Rates</>\nX5 Gather/XP/Taming\n\n<TextStyle.Blue>Dino Breeding</>\nX20 Egg hatching\nX19 Baby mature speed\nX0.2 Mating interval\n\n<TextStyle.Blue>Max Dino Levels</>\nWild 500 (Cave dinos can be higher)",
+        "layout": 2,
+        "buttontext": "<TextStyle.LightBlue>Server Info</>",
+        "title1": "<TextStyle.Green>General</>",
+        "title2": "<TextStyle.Green>Server Settings</>",
+        "text1": "Although our server is PvE, with the NPC mod, its more PvEvNPC.\nThis means the base server setting is PVE so there is no 'player vs player' allowed.\nWith NPC mod however, it offers an 'environment' based pvp style of play.\nNPC's are humanoid non-player characters that spawn in the world. They build their own bases with base defenses.\nThey are naturally aggressive or hostile. Approach them with caution!\nNPC's will actively hunt you down and knock you out if you encroach on their territory.\nThey are tameable - by knockout only. The different NPC's perform different functions once tamed.\nNPC's will periodically raid your base in small raiding parties (only while you're online).\nMore info on NPCs can be found in the NPC link below.\n\nWe are using the ArkShop plugin with a UI mod. Hit <TextStyle.Orange>F2</> to access the shop.",
+        "text2": "Our server settings are:\n\n<TextStyle.Orange>Player & Dinos</>\nMax player level - 209 (Before ascension & Chibis)\nMax wild dino level - 500 (Cave dinos can be higher)\n\n<TextStyle.Orange>Server Rates</>\nX5 Harvesting / XP / Taming\nX0.5 Water & Food Drain (player)\nX10 Special Events\nX20 Breeding\nX19 Baby mature speed\nX0.11 Cuddle Interval\nX0.2 Mating interval\n\n<TextStyle.Orange>Environment</>\nX1.5 Crop Decay speed\nX1.5 Crop Growth speed\nX0.5 StructurePreventResourceRadiusMultiplier\n\nX2 Supply crate loot quality\nX2.5 Fishing loot quality",
           "imageurl": "https://i.imgur.com/mGt3cAF.png"
         }
       },
       {
         "tab3": {
-          "layout": 3,
-          "buttontext": "3 Box layout",
-          "title1": "Left title",
-          "title2": "Top right title",
-          "title3": "Bottom left title",
-          "text1": "This text goes into the left box",
-          "text2": "This text goes into the top right box",
-          "text3": "This text goes into the bottom right box",
+          "layout": 2,
+          "buttontext": "<TextStyle.LightBlue>Rules</>",
+          "title1": "Building",
+          "title2": "Behaviour",
+          "text1": "Please don't build so as to block rare resources\nDon't block access to resource caves.\nDon't build and block access to the volcano\nDon't build on the obelisk terminals\nTry to keep to 1 main base on each map with up to 2 outposts.\nIf you build dino traps, either unlock them so others can use them,\nor demolish them after use so the map isn't littered with traps everywhere.",
+          "text2": "Harassing other players is forbidden. This includes insults, sexist and radical expressions as well as verbal abuse.\nPvP behaviour is forbidden (e.g. thieving & unsolicited interactive behaviour like picking\nup other players without their approval and dropping wild dinos in other's bases).\nIf there is contention for certain lootdrops, the first player to get to and call out the coords of a particular lootdrop has claim to it.\nDon't park your dinos on the volcano or at obelisks unattended.\nDon't leave your dinos on free wander in the world. Either set them to wander within your base walls, or keep them leashed.\nBehaviour that harms the atmosphere on our servers won't be tolerated.",
           "imageurl": "https://i.imgur.com/mGt3cAF.png"
         }
       },
       {
         "tab4": {
-          "layout": 4,
-          "buttontext": "4 Box layout",
-          "title1": "Top left title",
-          "title2": "<TextStyle.Green>Top right title</>",
-          "title3": "<TextStyle.Blue>bottom left title</>",
-          "title4": "<TextStyle.Yellow>bottom right title</>",
-          "text1": "<TextStyle.Orange>This text goes into the top left box</>",
-          "text2": "<TextStyle.Violet>This text goes into the top right box</>",
-          "text3": "<TextStyle.Red>This text goes into the bottom left box</>",
-          "text4": "<TextStyle.White>This text goes into the bottom right box</>",
+          "layout": 2,
+          "buttontext": "<TextStyle.LightBlue>Shop & Help</>",
+          "title1": "Shop",
+          "title2": "Help",
+          "text1": "We are using an ArkShop plugin with a UI mod. Hit <TextStyle.Orange>F2</> to access the shop.\nThere are 2 starter packs, which are claimed in the Stash menu:\nStart dino - can be claimed once,\nStart pack (clothes and tools) can be claimed twice.\n\nYou earn ingame currency over time:\n- Default (All players) 15 points every 30 minutes (30points/hour)\n- VIP 25 points every 30 minutes (50/hour)\n\nSome shop items are VIP accessible only. These are:\n- Teleport to obelisks (You can TP to any obelisk from anywhere)\n- Tier3 & Tier4 EXP purchases (500k & 1M points of EXP - can be applied to either player or dino)\n\nMore items will be added to the shop over time.",
+          "text2": "If you need help, just ask in game or join our discord and use the help channels there.\nAn admin will assist you as soon as possible.\nOur discord link is below.",
           "imageurl": "https://i.imgur.com/mGt3cAF.png"
         }
       }
@@ -65,22 +59,22 @@
     "links": [
       {
         "link1": {
-          "text": "Link to Wiki",
-          "url": "https://github.com/DC-Modding/WBUI2-Wiki/wiki"
+          "text": "Discord",
+          "url": "https://discord.gg/73Dc2DWFSg"
         }
       },
       {
         "link2": {
-          "text": "Link to discord",
-          "url": "https://discord.com/invite/K7NyrTV"
+          "text": "Ark WIKI",
+          "url": "https://ark.wiki.gg/wiki/ARK_Wiki"
         }
       },
       {
         "link3": {
-          "text": "Link to google",
-          "url": "https://google.com"
+          "text": "NPC Info",
+          "url": "https://steamcommunity.com/workshop/filedetails/discussion/1443404076/3338745825897329594/"
         }
       }
     ]
   }
-}
+}          
